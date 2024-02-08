@@ -1,21 +1,28 @@
-import "./Header.css"
-
+import "./Header.css";
 
 function Header() {
   return (
     <>
       <header>
-        <div className='logo'>
-            <img src="../src/assets/payqubitlogo.png" alt="" />
-        </div>
-        <div className='sections'>
-          <a href="">Industrias y Verticales</a>
-          <a href="">Soporte</a>
-          <a href="">Core Team</a>
+        <img src="../src/assets/payqubitlogo.png" alt="" />
+        <div className="sections">
+          <nav>
+            <ul className= "links">
+              <li>
+                <a href="">Industrias y Verticales</a>
+              </li>
+              <li>
+                <a href="">Soporte</a>
+              </li>
+              <li>
+                <a href="">Core Team</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </header>
     </>
-  )
+  );
 }
 
-export default Header
+export default Header;
