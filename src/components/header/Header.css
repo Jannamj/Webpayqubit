@@ -1,5 +1,5 @@
+
 header {
-  background-color: gray;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,4 +37,5 @@ header > div {
 }
 header > div > nav > ul > li > a {
   text-decoration: none;
+  color: white;
 }

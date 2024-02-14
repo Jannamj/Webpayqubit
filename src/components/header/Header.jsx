@@ -1,4 +1,7 @@
+import React from 'react'
 import "./Header.css";
+import BackgroundAnimation from '../animation/BackgroundAnimation';
+
 
 function Header() {
   return (
@@ -21,8 +24,10 @@ function Header() {
           </nav>
         </div>
       </header>
+      <BackgroundAnimation/>
     </>
   );
 }
+
 
 export default Header;
